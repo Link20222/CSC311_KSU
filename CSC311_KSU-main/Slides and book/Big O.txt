@@ -1,0 +1,137 @@
+Linked list :
+insert o(1)
+remove o(n)
+find previous o(n)
+others o(1)
+
+Array list :
+insert o(n)
+remove o(n)
+others o(1)
+
+Doubly linked list :
+insert o(1)
+remove o(1)
+others o(1)
+
+Array queue :
+enqueue o(1)
+serve o(1)
+
+Linked queue :
+enqueue o(1)
+serve o(1)
+
+PQueue:
+enqueue o(n)
+serve o(1)
+
+Stack :
+push o(1)
+pop o(1)
+
+
+BT:
+find parent o(n)
+find o(1)(هذه المثود تستدعي داخلها مثود فايند بيرنت)
+find key o(n)
+insert o(1)
+delete sub tree o(1)
+
+
+BST:
+find key o(log(n))(average case)
+find key o(n) (worest case)
+insert o(1)
+delete sub tree o(1)
+remove_aux o (n) 
+remove key o(n) 
+find_min o(n)
+
+
+AVL:
+find o(log(n))
+insert o(log(n))
+delete o(log(n))
+
+Hash :
+find o(1)
+
+Graph :
+Adjacency matrix speace : o(n^2)
+Adjacency list speace : o(e+n)
+
+Heap:
+siftUp (upHeap) O(log n)
+siftDown (downHeap) O(log n)
+enqueue in heap priority queue O(log n)
+serve() in heap priority queue O(log n)
+Priority queue : space O(n) 
+Bottom-up construction of a heap O(n)
+Heap sort O(n log n)
+
+NOTE:
+• For sorting in descending order , construct min-heap
+• For sorting in ascending order, construct max-heap
+
+____________________________________________________________________________SORT___________________________________________________
+Insertion sort
+Worst case time complexity: O(n^2) (quadratic).
+Average case time complexity: O(n^2).
+Space complexity: O(1).
+In-place: Yes.
+Stable: Yes.
+
+Selection sort
+Worst case time complexity: O(n^2) (quadratic).
+Average case time complexity: O(n^2).
+Space complexity: O(1).
+In-place: Yes.
+Stable: No.
+
+Bubble sort
+Worst case time complexity: O(n^2) (quadratic).
+Average case time complexity: O(n^2).
+Space complexity: O(1).
+In-place: Yes.
+Stable: Yes.
+
+Merge sort
+Worst case time complexity: O(n log n) (sub-quadratic).
+Average case time complexity: O(n log n).
+Space complexity: O(n) (requires auxiliary memory).
+In-place: No.
+Stable: Yes.
+
+Quick sort
+Worst case time complexity: O(n^2) (quadratic). The worst case happens when the array
+is already sorted for example.
+Average case time complexity: O(n log n) (sub-quadratic).
+Space complexity: O(1).
+In-place: Yes.
+Stable: No.
+
+
+Bucket sort
+Worst case time complexity: O(n^2) (quadratic). The worst case happens when all keys
+fall in the same bucket.
+Average case time complexity: O(n +n^2/k+ k) (this becomes O(n) when k = n).
+Space complexity: O(n + k).
+In-place: No.
+Stable: Yes.
+
+Counting sort
+Worst case time complexity: O(n + m).
+Average case time complexity: O(n + m).
+Space complexity: O(n + m).
+In-place: No.
+Stable: Yes.
+
+Radix sort
+Let k be the maximum number of digits in any key.
+Worst case time complexity: O(kn).
+Average case time complexity: O(kn).
+Space complexity: O(n + b).
+In-place: No.
+Stable: Yes.
+_________________________
